@@ -1,0 +1,324 @@
+
+
+
+body {
+    padding: 0;
+    margin: -18px 0px 0px 0px;
+    /* font-family: Georgia, Times New Roman, Times, serif; */
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #777777;
+    /* background-image:url(/Users/amits/Desktop/MyDesktop/MacDesktop/UM_FSBC/Coding_Projects/Basic-Portfolio/assets/image/background.png); */
+    background-color: #4aaaa5;
+  }
+
+  header{
+    margin: 0;
+    background-color: #ffffff;
+    /* border-color: #cccccc; */
+    height: 90px;
+    border-bottom:solid 2px #cccccc;
+  
+  }
+
+ h1{
+    padding: 20px;
+    margin: 0;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4aaaa5; 
+    color: white;
+    margin-left: 240px;
+    height: 50px ;
+    width: 250px; 
+    float: left;
+    text-align: center;
+    font-family: Georgia, Times New Roman, Times, serif;
+    font-size: 32px;
+  } 
+
+  ul{
+    margin-right: 10px;;
+  }
+
+  li{
+    list-style: none;
+    display: inline;
+  }
+
+   #Portfolio{
+    border-left:solid 1px #cccccc;
+    border-right:solid 1px #cccccc;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+
+  #About{
+    padding-right: 15px;
+  }
+
+  a:hover { background-color: #4aaaa5;  }
+  #submitBtn:hover{ background-color: rgb(63, 119, 58);}
+  .pix:hover { outline: 5px solid gray;  }
+  /* a:link { color: red; } */
+  /* a:visited { color: blue; } */
+  /* a:active { color: green; } */
+  /* .hoverProp { background-color: rgb(29, 240, 135); } */
+  /* .hoverProp:hover { background-color: rgb(188, 173, 230); } */
+  /* .hoverProp:hover {
+    outline: 5px solid gray;
+    outline-offset: 10px;
+  } */
+  
+  #AboutPage, #PortfolioPage, #ContactPage{
+    padding-left: 0px;
+  }
+
+  a{
+    color: #777777;
+    text-decoration: none;
+  }
+  #center{
+      padding: 30px;
+      margin-left: 50%;
+      text-align: center;
+      
+  }
+  
+  h2{
+      color: #4aaaa5;
+      padding: 15px 15px;
+      border-bottom:solid 3px #cccccc;
+      margin-left: 25px;
+      margin-right: 25px;
+      font-family: Georgia, Times New Roman, Times, serif;
+  }
+  
+  img{
+      padding: 6px 25px 15px 15px;
+      height: 200px;
+      width: 200px;
+      margin-left: 25px;
+      float: left;
+  }
+  #pc1, #pc2, #pc3, #pc4, #pc5
+  {
+    height: 180px;    
+    width: 200px;
+  }
+  /* div{
+      width: 960px;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #ffffff;
+  } */
+
+  .imageF1 { 
+    position: relative; 
+    width: 100%; /* for IE 6 */
+  }
+  
+  #picTxt1 { 
+      position: absolute; 
+      top: 135px; 
+      left: 40px; 
+      width: 200px; 
+      height: 25px;
+      background-color: #4aaaa5;
+      color: white;
+      text-align: center;
+      font-size: 15px;
+      padding-top: 5px;
+      font-family: 'Georgia', Times, Times New Roman, serif;
+      font-weight: normal;
+  }
+
+  .imageF2 { 
+    position: relative; 
+    width: 100%; /* for IE 6 */
+  }
+
+  #picTxt2 { 
+    position: absolute; 
+    top: 135px; 
+    left: 305px; 
+    width: 200px; 
+    background-color: white;
+    text-align: center;
+    height: 25px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 5px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: normal;
+  }
+
+  .imageF3 { 
+    position: relative; 
+    width: 100%; /* for IE 6 */
+  }
+
+  #picTxt3 { 
+    position: absolute; 
+    top: 135px; 
+    left: 570px; 
+    width: 200px; 
+    background-color: white;
+    text-align: center;
+    height: 25px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 5px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: normal;
+  }
+
+  .imageF4 { 
+    position: relative; 
+    width: 100%; /* for IE 6 */
+  }
+
+  #picTxt4 { 
+    position: absolute; 
+    top: 335px; 
+    left: 40px; 
+    width: 200px; 
+    background-color: white;
+    text-align: center;
+    height: 25px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 5px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: normal;
+  }
+
+  .imageF5 { 
+    position: relative; 
+    width: 100%; /* for IE 6 */
+  }
+
+  #picTxt5 { 
+    position: absolute; 
+    top: 562px; 
+    left:545px; 
+    width: 200px; 
+    background-color: white;
+    text-align: center;
+    height: 25px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 5px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: normal;
+  }
+  .container {
+    width: 960px;
+    height: 550px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    border:solid 1px #dddddd
+  }
+
+  .containerPortFolio{
+    width: 960px;
+    height: 550px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    border:solid 1px #dddddd
+  }
+
+  .containerContact{
+    width: 960px;
+    height: 550px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    border:solid 1px #dddddd
+  }
+
+  .formContainer{
+    padding: 10px 10px 10px 10px;
+    margin-left: 20px;
+  }
+
+  .formContainer input:focus,
+  .formContainer textarea:focus{
+   border-color: #4ca1af;
+   /* box-shadow: inset 0 1px 1px rgba(0,0,0,0.0125), 
+                     0 0 8px rgba(76,161,175, 0.5); */
+  }
+
+  #name, #email{
+    width: 900px;
+    height: 25px;
+  }
+
+  #message1{
+    width: 900px;
+    /* height: 25px; */
+  }
+
+  .labelName{
+      padding-bottom: 8px;
+  }
+
+  .labelEmail{
+    padding-top: 15px;
+    padding-bottom: 8px;
+  }
+  
+  .labelMsg{
+    padding-top: 15px;
+    padding-bottom: 8px;
+  }
+
+  .button{
+    padding-top: 15px;
+  }
+
+  #submitBtn{
+    background-color: #4aaaa5; 
+    height: 30px ;
+    width: 80px; 
+    color: white;
+  }
+
+  
+  p{
+        margin: 25px 25px;
+        line-height: 1.5;
+  }
+
+  #p3{
+     padding-bottom: 35px;
+  }
+
+  footer{
+    margin: 75px 0px 0px 0px;
+    padding: 20px;
+    background-color: #666666;
+    height: 1px;
+    border-top:solid 9px #4aaaa5; 
+    text-align: center;
+    color: white;
+    font-size: 12px;
+
+    position: absolute; 
+    left: 0 ; right: 0; bottom: 0; 
+    height:[footer-height] 
+
+  }

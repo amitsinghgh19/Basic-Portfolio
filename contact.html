@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Amit Singh | Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <style>
+    body {
+    background-image:url(assets/image/background.png);
+    }
+    </style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $(".button").click(function(){
+            $("input[type='text'], textarea").val("");
+    });
+});
+</script>
+
+</head>
+<body>
+    <header>
+        <h1 id="heading">Amit Singh</h1>
+        <nav id="nav">
+            <ul id="center">
+                <li class=hoverProp id="About"><a href="index.html">About</a></li>
+                <li class=hoverProp id="Portfolio"><a href="portfolio.html">Portfolio</a></li>
+                <li class=hoverProp id="Contact"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="containerContact">
+            <div class="contant">
+            <h2 id="ContactPage">Contact</h2>
+            </div> 
+            <div class="formContainer">
+                <div class="top-form">
+                    <div class="labelName">Name</div>
+                    <input type="text" id="name" placeholder="First Last">
+                </div>
+
+                <div class="middle-form">
+                    <div class="labelEmail">Email</div>
+                    <input type="text" id="email" placeholder="example.gmail.com">
+                </div>
+
+                <div class="bottom-form">
+                    <div class="labelMsg">Message</div>
+                    <textarea name="message" id="message1" cols="30" rows="10" placeholder="Your Message..................."></textarea>
+                    <!-- <input type="text"> -->
+                </div>
+            
+                <div class="button">
+                    <input type="button" value="Submit" id="submitBtn">
+                </div>
+
+            </div> 
+    </div>
+        
+    <footer>Copyright©</footer>
+</body>
+</html>
