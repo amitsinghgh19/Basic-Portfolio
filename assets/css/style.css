@@ -15,7 +15,6 @@ body {
   header{
     margin: 0;
     background-color: #ffffff;
-    /* border-color: #cccccc; */
     height: 90px;
     border-bottom:solid 2px #cccccc;
   
@@ -32,7 +31,6 @@ body {
     width: 250px; 
     float: left;
     text-align: center;
-    font-family: Georgia, Times New Roman, Times, serif;
     font-size: 32px;
   } 
 
@@ -69,7 +67,13 @@ body {
     outline: 5px solid gray;
     outline-offset: 10px;
   } */
-  
+ 
+
+  a:active {
+    background-color: lightblue; 
+    font-weight: 500;
+    padding: 16px 16px;
+}
   #AboutPage, #PortfolioPage, #ContactPage{
     padding-left: 0px;
   }
@@ -95,132 +99,6 @@ body {
       font-family: Georgia, Times New Roman, Times, serif;
   }
   
-  img{
-      padding: 6px 25px 15px 15px;
-      height: 200px;
-      width: 200px;
-      margin-left: 25px;
-      float: left;
-  }
-  #pc1, #pc2, #pc3, #pc4, #pc5
-  {
-    height: 180px;    
-    width: 200px;
-  }
-  /* div{
-      width: 960px;
-      margin-left: auto;
-      margin-right: auto;
-      background-color: #ffffff;
-  } */
-
-  .imageF1 { 
-    position: relative; 
-    width: 100%; /* for IE 6 */
-  }
-  
-  #picTxt1 { 
-      position: absolute; 
-      top: 135px; 
-      left: 40px; 
-      width: 200px; 
-      height: 25px;
-      background-color: #4aaaa5;
-      color: white;
-      text-align: center;
-      font-size: 15px;
-      padding-top: 5px;
-      font-family: 'Georgia', Times, Times New Roman, serif;
-      font-weight: normal;
-  }
-
-  .imageF2 { 
-    position: relative; 
-    width: 100%; /* for IE 6 */
-  }
-
-  #picTxt2 { 
-    position: absolute; 
-    top: 135px; 
-    left: 305px; 
-    width: 200px; 
-    background-color: white;
-    text-align: center;
-    height: 25px;
-    background-color: #4aaaa5;
-    color: white;
-    text-align: center;
-    font-size: 15px;
-    padding-top: 5px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    font-weight: normal;
-  }
-
-  .imageF3 { 
-    position: relative; 
-    width: 100%; /* for IE 6 */
-  }
-
-  #picTxt3 { 
-    position: absolute; 
-    top: 135px; 
-    left: 570px; 
-    width: 200px; 
-    background-color: white;
-    text-align: center;
-    height: 25px;
-    background-color: #4aaaa5;
-    color: white;
-    text-align: center;
-    font-size: 15px;
-    padding-top: 5px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    font-weight: normal;
-  }
-
-  .imageF4 { 
-    position: relative; 
-    width: 100%; /* for IE 6 */
-  }
-
-  #picTxt4 { 
-    position: absolute; 
-    top: 335px; 
-    left: 40px; 
-    width: 200px; 
-    background-color: white;
-    text-align: center;
-    height: 25px;
-    background-color: #4aaaa5;
-    color: white;
-    text-align: center;
-    font-size: 15px;
-    padding-top: 5px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    font-weight: normal;
-  }
-
-  .imageF5 { 
-    position: relative; 
-    width: 100%; /* for IE 6 */
-  }
-
-  #picTxt5 { 
-    position: absolute; 
-    top: 562px; 
-    left:545px; 
-    width: 200px; 
-    background-color: white;
-    text-align: center;
-    height: 25px;
-    background-color: #4aaaa5;
-    color: white;
-    text-align: center;
-    font-size: 15px;
-    padding-top: 5px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    font-weight: normal;
-  }
   .container {
     width: 960px;
     height: 550px;
@@ -234,12 +112,149 @@ body {
   .containerPortFolio{
     width: 960px;
     height: 550px;
-    margin-top: 25px;
+    margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
     background-color: #ffffff;
     border:solid 1px #dddddd
   }
+
+  img{
+    padding: 15px 15px 15px 15px;
+    height: 180px;
+    width: 200px;
+    margin-left: 25px;
+    float: left;
+}
+.MyPic{
+  padding: 8px 15px 15px 15px;
+    height: 200px;
+    width: 200px;
+    margin-left: 25px;
+    float: left;
+}
+
+/* #pc1, #pc2, #pc3, #pc4, #pc5
+{
+  height: 180px;    
+  width: 200px;
+} */
+/* div{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    
+} */
+
+/* <div class="imageF1">
+<img class=pix src="assets/image/PortfolioPic1.jpeg" alt="Pic1" id="pc1">
+<h3 id="picTxt1">Foodie</h3>
+</div> */
+
+.imageF1 { 
+  position: relative; 
+  /* width: 100%; for IE 6 */
+  
+}
+
+#picTxt1 { 
+    position: absolute; 
+    top: 140px; 
+    left: 40px; 
+    width: 200px; 
+    height: 25px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 5px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: normal;
+}
+
+.imageF2 { 
+  position: relative; 
+  /* width: 100%; for IE 6 */
+}
+
+#picTxt2 { 
+  position: absolute; 
+  top: 140px; 
+  left: 295px; 
+  width: 200px; 
+  background-color: white;
+  text-align: center;
+  height: 25px;
+  background-color: #4aaaa5;
+  color: white;
+  font-size: 15px;
+  padding-top: 5px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-weight: normal;
+}
+
+.imageF3 { 
+  position: relative; 
+  /* width: 100%; for IE 6 */
+}
+
+#picTxt3 { 
+  position: absolute; 
+  top: 140px; 
+  left: 550px; 
+  width: 200px; 
+  background-color: white;
+  text-align: center;
+  height: 25px;
+  background-color: #4aaaa5;
+  color: white;
+  font-size: 15px;
+  padding-top: 5px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-weight: normal;
+}
+
+.imageF4 { 
+  position: relative; 
+  /* width: 100%; for IE 6 */
+}
+
+#picTxt4 { 
+  position: absolute; 
+  top: 350px; 
+  left: 40px; 
+  width: 200px; 
+  background-color: white;
+  text-align: center;
+  height: 25px;
+  background-color: #4aaaa5;
+  color: white;
+  font-size: 15px;
+  padding-top: 5px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-weight: normal;
+}
+
+.imageF5 { 
+  position: relative; 
+  /* width: 100%; for IE 6 */
+}
+
+#picTxt5 { 
+  position: absolute; 
+  top: 569px; 
+  left:535px; 
+  width: 200px; 
+  height: 25px;
+  background-color: white;
+  text-align: center;
+  background-color: #4aaaa5;
+  color: white;
+  font-size: 15px;
+  padding-top: 5px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-weight: normal;
+}
 
   .containerContact{
     width: 960px;
@@ -293,7 +308,7 @@ body {
 
   #submitBtn{
     background-color: #4aaaa5; 
-    height: 30px ;
+    height: 35px ;
     width: 80px; 
     color: white;
   }
@@ -320,7 +335,7 @@ body {
 
     position: absolute; 
     left: 0 ; right: 0; bottom: 0; 
-    height:[footer-height] 
+    height:[footer-height] ;
 
     
   }
